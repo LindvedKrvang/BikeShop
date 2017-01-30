@@ -32,4 +32,12 @@ public class BikeBoardModel {
             BIKES_FOR_SALE.add(new BikeModel(bike));
         }
     }
+    
+    /**
+     * Gets the observable list with all the bikeModels.
+     * @return 
+     */
+    public ObservableList<BikeModel> getObservableBikes(){
+        return BIKES_FOR_SALE;
+    }
 }
