@@ -12,6 +12,7 @@ import javafx.scene.control.ListCell;
 /**
  *
  * @author Rasmus
+ * @param <BikeModel>
  */
 public class BikeListCell<BikeModel> extends ListCell<BikeModel> {
     
