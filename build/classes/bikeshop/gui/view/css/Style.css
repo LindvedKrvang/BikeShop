@@ -1,0 +1,51 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 06-02-2017, 10:35:00
+    Author     : Rasmus
+*/
+
+.shadowy{
+    -fx-effect: dropshadow(gaussian, gray, 15, 0.5, 5, 5);
+}
+
+.button{
+    -fx-background-color: linear-gradient(rgb(150, 150, 150), rgb(50, 50, 50));
+    -fx-font-family: "Aerial narrow";
+    -fx-text-fill: white;   
+    -fx-font-weight: bold;
+    -fx-background-radius: 2em;
+}
+
+.button:hover{
+    -fx-background-color: linear-gradient(rgb(200, 200, 200), rgb(100, 100, 100));
+}
+
+.mainBackground{
+    -fx-background-color: linear-gradient(rgb(250, 250, 250), rgb(50, 50, 50));
+}
+
+.padding{
+    -fx-padding: 5 5 5 5;
+}
+
+.drawBorder{
+    -fx-border-color: black;
+    -fx-border-with: 1;
+    -fx-border-style: solid;
+}
+
+.colorBackground{
+    -fx-background-color: linear-gradient(rgb(10, 255, 255), rgb(10, 50, 155));
+}
+
+.greyBackground{
+    -fx-background-color: rgb(110, 110, 110);
+}
+
+.list-cell{
+    -fx-control-inner-background: rgb(100, 100, 100);
+}

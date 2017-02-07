@@ -88,6 +88,9 @@ public class BikeBoardViewController implements Initializable, ListChangeListene
         return bike;
     }
     
+    /**
+     * Adds all the bikes to the flowPane.
+     */
     public void addBikes(){
         for(BikeModel bikeModel : model.getObservableBikes()){
             try {
